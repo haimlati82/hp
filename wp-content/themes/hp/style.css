@@ -1,0 +1,241 @@
+/*
+Theme Name: hp
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hp
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+hp is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+.home .b-wrapper {
+
+    padding-top: 109px;
+}
+pre{
+    direction: ltr;
+}
+.b-text h3{
+    font-size: 24px;
+    color: #221e1f;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 7px;
+}
+.b-content-collapse hr{
+    border-bottom: 1px solid #221e1f;
+    margin-bottom: 7px;
+    margin-top: 8px;
+}
+.b-question p{
+
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    width: 100%;
+    word-break: break-word;
+
+}
+.b-content-collapse p {
+    word-break: break-word;
+}
+.b-article .sec-bottom {
+    padding: 0 190px 0 190px !important;
+}
+.b-main-messages a{
+    color: #ffffff;
+}
+.b-contact .left img{
+    height: 105px !important;
+}
+.m-site-menu .link img,
+.m-site-menu .sub-list img,
+.m-footer-menu .link img,
+.m-footer-menu .sub-list img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+.dataTables_wrapper{
+    direction: rtl;
+}
+.dataTables_wrapper tr a,
+.dataTables_wrapper tr img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.dataTables_wrapper th:first-child {
+    padding-right: 5px;
+}
+.sec-bottom .tablepress tfoot th, .sec-bottom .tablepress thead th{
+    background-color: transparent;
+}
+.tablepress thead th {
+    padding: 0 10px;
+    text-align: right;
+    font-size: 19px;
+    font-weight: 700;
+    color: #0096d6;
+    line-height: 25px;
+    border-top: 1px solid #0096d6;
+    border-bottom: 1px solid #0096d6 !important;
+    transition: background-color 0.2s ease-out;
+}
+.tablepress tr:hover td {
+    color: #fff;
+    background: #0096d6 !important;
+    border-color: #0096d6 !important;
+}
+.tablepress td {
+    vertical-align: middle !important;
+    max-width: 160px;
+    padding: 0 10px !important;
+    font-size: 14px;
+    line-height: 21px;
+    border-bottom: 1px solid #b9b8bb;
+    color: #030303;
+    font-family: 'tipograf', sans-serif;
+    transition: all 0.2s ease-out;
+}
+.ac-custom .row {
+    margin-bottom: 33px;
+}
+.ac-custom .justify {
+    text-align: justify;
+}
+.ac-custom .justify:after {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    content: "";
+}
+.ac-custom .arrow-down {
+    position: absolute;
+    left: 2px;
+    top: 35px;
+    transition: border-color 0.2s ease-out, color 0.2s ease-out;
+}
+.ac-custom .arrow-down .svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    stroke: #858789;
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    transition: all 0.2s ease-out;
+    right: auto;
+}
+.ac-custom .arrow-down .svg path {
+    stroke-width: 6px;
+}
+.ac-custom label {
+    font-size: 16px;
+    color: #767676;
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 15px;
+}
+.ac-custom input,
+.ac-custom textarea {
+    border: 1px solid #b9b8bb;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 15px;
+    color: #767676;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    transition: border-color 0.2s ease-out;
+}
+.ac-custom input:focus,
+.ac-custom textarea:focus {
+    border-color: #221e1f;
+}
+.ac-custom input:focus+.arrow-down .svg,
+.ac-custom textarea:focus+.arrow-down .svg {
+    stroke: #f05430;
+    fill: #f05430;
+}
+.ac-custom input.invalid,
+.ac-custom textarea.invalid {
+    background: #8a3927;
+    border-color: #8a3927;
+}
+.ac-custom input.invalid:focus,
+.ac-custom textarea.invalid:focus {
+    background: transparent;
+}
+.ac-custom input.invalid:focus::-webkit-input-placeholder,
+.ac-custom textarea.invalid:focus::-webkit-input-placeholder {
+    color: #b9b8bb;
+}
+.ac-custom input.invalid:focus::-moz-placeholder,
+.ac-custom textarea.invalid:focus::-moz-placeholder {
+    color: #b9b8bb;
+}
+.ac-custom input.invalid:focus:-ms-input-placeholder,
+.ac-custom textarea.invalid:focus:-ms-input-placeholder {
+    color: #b9b8bb;
+}
+.ac-custom input.invalid:focus::placeholder,
+.ac-custom textarea.invalid:focus::placeholder {
+    color: #b9b8bb;
+}
+.ac-custom input.invalid::-webkit-input-placeholder,
+.ac-custom textarea.invalid::-webkit-input-placeholder {
+    color: #fff;
+}
+.ac-custom input.invalid::-moz-placeholder,
+.ac-custom textarea.invalid::-moz-placeholder {
+    color: #fff;
+}
+.ac-custom input.invalid:-ms-input-placeholder,
+.ac-custom textarea.invalid:-ms-input-placeholder {
+    color: #fff;
+}
+.ac-custom input.invalid::placeholder,
+.ac-custom textarea.invalid::placeholder {
+    color: #fff;
+}
+.ac-custom textarea {
+    height: auto;
+    line-height: 17px;
+    padding: 4px 15px;
+    background: transparent;
+    width: 463px;
+}
+.ac-custom .col {
+    width: 194px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.ac-custom .time.open~.b-time-drop {
+    display: block;
+}
+.ac-custom .time {
+    direction: ltr;
+}
+.ac-custom .b-description{
+    padding: 19px 0;
+}
